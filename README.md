@@ -31,6 +31,72 @@ Alternatively can also use `npm` and `nodemon`
 npm install         # to Inialise with Required Packages
 nodemon server.js   # To Start server on port 4000
 ```
+## API End-Points
+
+### User Related
+- Add User
+```
+http://localhost:4000/user/login
+```
+- User Registration
+```
+http://localhost:4000/user/register
+```
+
+- List All Users in Database
+```
+http://localhost:4000/user/all
+```
+
+## Category Related
+- Add Category
+```
+http://localhost:4000/category/add
+```
+
+- List All Category in Database
+```
+http://localhost:4000/category/display
+```
+
+- Delete Category
+```
+http://localhost:4000/category/delete
+```
+
+
+### Blog Related
+- Add Blog
+```
+http://localhost:4000/blog/create
+```
+- Display Blog Based on User_id
+```
+http://localhost:4000/blog/user
+```
+
+- Delete Blog Blog Based on User_id
+```
+http://localhost:4000/blog/delete
+```
+- Update Specific Blog
+```
+http://localhost:4000/blog/edit
+```
+
+- Search Blog Based on Title
+```
+http://localhost:4000/blog/search
+```
+- Search Blog Based on Blog_id
+```
+http://localhost:4000/blog/id
+```
+
+- List All Users in Database
+```
+http://localhost:4000/blog/view
+```
 
 ## Key Points to Note
 - The Backend Express JS would run on Port `4000` while React would host the Page on `Port 3000`
