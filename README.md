@@ -48,7 +48,7 @@ http://localhost:4000/user/register
 http://localhost:4000/user/all
 ```
 
-## Category Related
+### Category Related
 - Add Category
 ```
 http://localhost:4000/category/add
