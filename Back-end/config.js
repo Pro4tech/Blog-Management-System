@@ -1,3 +1,4 @@
 module.exports = {
-    secret: 'XEmOiVilP3GyWIy5eoStsasddz2UXHn',
+    // Generate Secret and Assign it below
+    // secret: '<Enter Generated Secret here>',
   }
